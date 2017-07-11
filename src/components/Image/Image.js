@@ -1,8 +1,8 @@
 import React, { Component } from 'react'
 import PropTypes from 'prop-types'
-import { RefreshIndicator } from 'material-ui'
-import { ImageBrokenImage } from 'material-ui/svg-icons'
-import * as colors from 'material-ui/styles/colors'
+import { RefreshIndicator } from '@logicline/material-ui'
+import { ImageBrokenImage } from '@logicline/material-ui/svg-icons'
+import * as colors from '@logicline/material-ui/styles/colors'
 
 function getRandomColor () {
   const colorNames = Object.keys(colors)

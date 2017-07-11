@@ -7,9 +7,12 @@ Images are ugly until they're loaded. Materialize it with material image! It wil
 
 See this component in [action](https://teamwertarbyte.github.io/material-ui-image)
 
+This package is customized to use the scoped `@logicline/material-ui` package. Everything stayed the same.  
+The original package is available from npm via [`material-ui-image`](https://www.npmjs.com/package/material-ui-image).
+
 ## Installation
 ```shell
-npm i --save material-ui-image
+npm i --save @logicline/material-ui-image
 ```
 
 ## Usage
@@ -17,7 +20,7 @@ npm i --save material-ui-image
 Use this component just like a regular img tag.
 
 ```js
-import Image from 'material-ui-image'
+import Image from '@logicline/material-ui-image'
 
 // ...
 
